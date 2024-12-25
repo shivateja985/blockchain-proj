@@ -7,7 +7,7 @@ contract Calculator {
     string public name;
     uint public var1;
     uint public var2;
-    uint  res;
+    uint  public res;
 
     constructor(string memory _iname, uint _ivar1, uint _ivar2){
         name= _iname;
